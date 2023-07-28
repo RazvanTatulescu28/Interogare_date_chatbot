@@ -15,8 +15,8 @@ MQTT_TOPIC = 'training/device/RazvanMihail'
 sensor = Adafruit_DHT.DHT22
 pin = 5
 
-telegram_bot_token = "6322901828:AAGy60s6Nicjzj4Ds9EIVauOgJXZf6kxHwo"  # Înlocuiește cu token-ul API al bot-ului tău
-telegram_chat_id = "-1001968055940"  # Înlocuiește cu ID-ul chat-ului în care vrei să primești datele
+telegram_bot_token = "6322901828:AAGy60s6Nicjzj4Ds9EIVauOgJXZf6kxHwo"  
+telegram_chat_id = "-1001968055940"  
 
 def read_sensor_data():
     humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
